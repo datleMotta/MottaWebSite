@@ -1,0 +1,106 @@
+.contact {
+  background: var(--bg-white);
+}
+
+.contactHeader {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.contactHeader h2 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.contactSubtitle {
+  font-size: 1.25rem;
+  color: var(--text-light);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contactGrid {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.infoCard {
+  background: var(--bg-light);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.infoIcon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.infoCard h3 {
+  color: var(--primary-color);
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+.infoCard p {
+  color: var(--text-light);
+  margin: 0;
+}
+
+.contactForm {
+  background: var(--bg-light);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.formGroup {
+  margin-bottom: 1.5rem;
+}
+
+.formGroup label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: var(--text-dark);
+  font-weight: 600;
+}
+
+.formGroup input,
+.formGroup textarea {
+  width: 100%;
+  padding: 0.875rem;
+  border: 1px solid var(--border-color);
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color 0.3s ease;
+}
+
+.formGroup input:focus,
+.formGroup textarea:focus {
+  outline: none;
+  border-color: var(--secondary-color);
+}
+
+.formGroup textarea {
+  resize: vertical;
+}
+
+.contactForm button {
+  width: 100%;
+}
+
+@media (max-width: 968px) {
+  .contactGrid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
