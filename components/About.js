@@ -19,7 +19,7 @@ export default function About() {
               With years of experience in the financial services industry, Motta Financial has been helping individuals and businesses achieve their financial goals through expert guidance and personalized strategies.
             </p>
             <p>
-              Our team of certified financial advisors is committed to understanding your unique situation and crafting solutions that align with your objectives, whether you're planning for retirement, growing your wealth, or securing your family's future.
+              Our team of certified financial advisors is committed to understanding your unique situation and crafting solutions that align with your objectives, whether you&apos;re planning for retirement, growing your wealth, or securing your family&apos;s future.
             </p>
             
             <div className={styles.stats}>
